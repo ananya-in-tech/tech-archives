@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD033 MD041 -->
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=ananya-09.DSA-Discussions">
-
+<br>
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Bitcount+Prop+Double&weight=500&height=100&size=28&pause=1000&color=0EB397FF&background=00000000&center=true&width=600&height=100&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+DSA+Discussions!;Let's+Dive+in+to+Tech" alt="DSA Discussions Typing SVG" />
   </a>
 </div>
-<br>
+
 <div align="center">
   <a href="https://github.com/ananya-09/DSA-Discussions">
     <img src="https://img.shields.io/github/repo-size/ananya-09/DSA-Discussions?color=FFE75E&style=flat-square" alt="Repo Size">
