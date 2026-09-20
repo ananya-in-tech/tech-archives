@@ -3,7 +3,7 @@
 <br>
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Bitcount+Prop+Double&weight=500&height=100&size=28&pause=1000&color=0EB397FF&background=00000000&center=true&width=600&height=100&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+DSA+Discussions!;Let's+Dive+in+to+Tech" alt="DSA Discussions Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Source+Code+Pro&weight=600&height=100&size=28&pause=1000&color=FFCA3DFF&background=00000000&center=true&width=600&height=100&lines=Hello+There!+%F0%9F%91%8B;Welcome+to+%F0%9F%AA%90+DSA+Discussions!;Let's+Dive+in+to+Tech" alt="DSA Discussions Typing SVG" />
   </a>
 </div>
 
