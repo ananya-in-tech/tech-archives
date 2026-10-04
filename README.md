@@ -14,6 +14,9 @@
   <a href="https://github.com/ananya-in-tech/tech-archives/discussions">
     <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?color=00B8A9&style=for-the-badge" alt="Discussions">
   </a>
+  <a href="https://discord.gg/k34jbtruWB">
+    <img src="https://img.shields.io/discord/1538220808084914336?style=for-the-badge&logo=discord&logoColor=white&label=Discord&color=5865F2" alt="Discord Server Widget">
+  </a>
 </div>
 
 <div align="center">
@@ -30,9 +33,9 @@
 
 Got questions, ideas, or want to showcase what you're building? Join our Discord community!
 
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/k34jbtruWB)
+[![Tech Archive Discussions Discord](https://discord.com/api/guilds/1538220808084914336/widget.png?style=banner3)](https://discord.gg/k34jbtruWB)
 
-> **[Tech Archive Discussions](https://discord.gg/k34jbtruWB)**
+**[Join the server](https://discord.gg/k34jbtruWB)**
 
 
 ## A Note from the Developer
