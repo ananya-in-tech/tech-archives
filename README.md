@@ -9,16 +9,14 @@
 
 <div align="center">
   <a href="https://github.com/ananya-in-tech/tech-archives">
-    <img src="https://img.shields.io/github/repo-size/ananya-09/DSA-Discussions?color=FFE75E&style=flat-square" alt="Repo Size">
+    <img src="https://img.shields.io/github/repo-size/ananya-09/DSA-Discussions?color=FFE75E&style=for-the-badge" alt="Repo Size">
   </a>
   <a href="https://github.com/ananya-in-tech/tech-archives/discussions">
-    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?color=00B8A9&style=flat-square" alt="Discussions">
+    <img src="https://img.shields.io/github/discussions/ananya-in-tech/tech-archives?color=00B8A9&style=for-the-badge" alt="Discussions">
   </a>
 </div>
 
 <div align="center">
-  <p>An elegant, community-driven ecosystem designed for mastering Data Structures and Algorithms. The repository stores the core conceptual notes and code, while hosting active bug-hunting, contest strategies, and milestone celebrations in the Discussions tab.</p>
-
   <p>
     <a href="#-the-vault-repository-structure">Explore Repository Folders</a> • 
     <a href="#-the-forum-github-discussions-guide">Join the Discussions</a> • 
@@ -28,8 +26,16 @@
 
 <!-- markdownlint-enable MD033 -->
 
+## Community
 
-## 💡 A Note from the Developer
+Got questions, ideas, or want to showcase what you're building? Join our Discord community!
+
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/k34jbtruWB)
+
+> **[Tech Archive Discussions](https://discord.gg/k34jbtruWB)**
+
+
+## A Note from the Developer
 
 > Hey there! Thanks for stopping by. I created this repository to turn the often isolating (and sometimes exhausting) DSA grind into an interactive, automated, and collaborative space. Whether you are here to break down complex patterns, hunt down a stubborn bug, or find a study partner, you are incredibly welcome.
 > 
@@ -40,13 +46,14 @@
 > — [**Ananya**](https://github.com/ananya-in-tech)
 
 
-## ⚡ The Quick Dashboard
+
+## The Quick Dashboard
 
 | Repository Core (The Vault) | Community Vision | Ecosystem Spaces (The Forum) |
 | :--- | :--- | :--- |
-| 📁 **Topic-wise Coding Notes** & insights | 🤝 **Collaborate** on codes & deep logic | ❓ The Doubt Box & 💡 Tips & Tricks |
-| 📄 **Curated Resources** & problem links | 📚 **Learn** core engineering patterns | 💻 LeetCode & ⚔️ Codeforces Arenas |
-| 🛠️ **Multi-Language** crowd-sourced code | 📈 **Grow Together** through consistency | 💬 General Chat & 🏆 Achievements |
+| **Topic-wise Coding Notes** & insights | **Collaborate** on codes & deep logic | The Doubt Box & Tips & Tricks |
+| **Curated Resources** & problem links | **Learn** core engineering patterns | LeetCode & Codeforces Arenas |
+| **Multi-Language** crowd-sourced code | **Grow Together** through consistency | General Chat & Achievements |
 
 ---
 
@@ -59,19 +66,19 @@ This repository avoids chaotic file dumps by organizing all code and resources i
 
 
 ```text
-├── 📦 01_Arrays/
-│   ├── 📄 README.md              
-│   └── 🛠️ Two_Sum/
+├── 01_Arrays/
+│   ├── README.md              
+│   └── Two_Sum/
 │       └── ... and so on/
 |       |
-├── 📦 02_Linked_Lists/
-├── 📦 03_Stacks_Queues/
+├── 02_Linked_Lists/
+├── 03_Stacks_Queues/
 |       |
 |       |
 |       ... and so on/
 |       |
-├── 📦 09_Trees_Heaps/
-└── 📦 12_Dynamic_Programming/
+├── 09_Trees_Heaps/
+└── 12_Dynamic_Programming/
 
 ```
 
@@ -82,7 +89,7 @@ This repository avoids chaotic file dumps by organizing all code and resources i
 
 ---
 
-## 💬 The Forum: GitHub Discussions Guide
+## The Forum: GitHub Discussions Guide
 
 To prevent brilliant logic breakdowns, study notes, and debug logs from getting buried under endless message threads, our entire conversational layer lives right here in the **Discussions** tab.
 
@@ -128,13 +135,13 @@ To prevent brilliant logic breakdowns, study notes, and debug logs from getting 
 
 This repository features automated helpers to fetch problem statements instantly! When starting a new discussion thread for a puzzle, follow these simple formatting steps to auto-generate a comprehensive briefing card:
 
-### 🟢 1. LeetCode Arena Discussions
+### 1. LeetCode Arena Discussions
 To start a study thread for a specific LeetCode problem:
 * **Category:** Create a new discussion in the **LeetCode Arena** category.
 * **Title:** Give the thread your own descriptive title (e.g., `Solving Two Sum using Maps`).
 * **Body:** Simply paste the direct LeetCode problem URL in the body of the post.
 
-### 🔵 2. Codeforces Arena Discussions
+### 2. Codeforces Arena Discussions
 To start a study thread for a Codeforces problem:
 * **Category:** Create a new discussion in the **Codeforces Arena** category.
 * **Title:** Give the thread your own descriptive title.
@@ -154,28 +161,28 @@ A
 >There more other options for the markdown you can choose from just for the ease of your discussions.
 
 ```markdown
-### 🔢 Contest ID|# Contest ID|#contest|#contest id|# contest
+### Contest ID|# Contest ID|#contest|#contest id|# contest
 2026
 
-### 🔤 Problem Index|# Problem Index|#problem|#problem index|# problem
+### Problem Index|# Problem Index|#problem|#problem index|# problem
 A-Z
 
 ```
 
 ---
 
-## 🧠 Best Practices for Community Collaboration
+## Best Practices for Community Collaboration
 
 To get the most out of every automated discussion thread, keep these simple habits in mind:
 
-* **🧵 Keep Conversations in the Thread:** Avoid creating multiple separate discussions for the exact same problem number. If a thread already exists for a puzzle, open it up and add your approach as a reply comment inside that single master space.
-* **⏱️ Detail Your Complexity Math:** When sharing your solutions in the reply section, don't just paste code. Explicitly mention your performance targets using standard markdown strings (e.g., Time Complexity: `O(N)`, Auxiliary Space: `O(1)`).
-* **💡 Explain the "Why":** Break down your thought process. Did you use a sliding window because of a subarray constraint? Did you shift to a map optimization because lookups were hitting a time bottleneck? Teach your peers your algorithmic intuition!
-* **📦 Use Clean Syntax Highlighting & Forms:** When replying with code samples, always enforce proper language backticks so your snippets feature clean syntax highlighting. Additionally, utilize the automated templates inside the `.github/ISSUE_TEMPLATE/` directory when presenting formal blueprints or tracking bug fixes directly to the system project board.
+* **Keep Conversations in the Thread:** Avoid creating multiple separate discussions for the exact same problem number. If a thread already exists for a puzzle, open it up and add your approach as a reply comment inside that single master space.
+* **Detail Your Complexity Math:** When sharing your solutions in the reply section, don't just paste code. Explicitly mention your performance targets using standard markdown strings (e.g., Time Complexity: `O(N)`, Auxiliary Space: `O(1)`).
+* **Explain the "Why":** Break down your thought process. Did you use a sliding window because of a subarray constraint? Did you shift to a map optimization because lookups were hitting a time bottleneck? Teach your peers your algorithmic intuition!
+* **Use Clean Syntax Highlighting & Forms:** When replying with code samples, always enforce proper language backticks so your snippets feature clean syntax highlighting. Additionally, utilize the automated templates inside the `.github/ISSUE_TEMPLATE/` directory when presenting formal blueprints or tracking bug fixes directly to the system project board.
 
 ---
 
-## 🤝 How to Collaborate
+## How to Collaborate
 
 We must follow a clean, collaborative engineering workflow to make sure every line of code added to this repository meets high interview standards.
 
@@ -190,5 +197,5 @@ We must follow a clean, collaborative engineering workflow to make sure every li
 
 ---
 
-*Built with passion for the open-source community. Let's stay consistent and build beautiful commit graphs together!* 🟩
+*Built with passion for the open-source community. Let's stay consistent and build beautiful commit graphs together!*
 
