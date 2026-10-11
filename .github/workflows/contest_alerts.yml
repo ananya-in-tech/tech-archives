@@ -1,0 +1,66 @@
+name: Contest Alerts
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Notification mode'
+        required: true
+        default: 'daily'
+        type: choice
+        options:
+          - daily
+          - weekly
+
+permissions:
+  contents: read
+
+concurrency:
+  group: contest-alerts-${{ github.event.schedule || github.event.inputs.mode || 'manual' }}
+  cancel-in-progress: false
+
+jobs:
+  notify:
+    name: Send Contest Notifications
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4
+
+      - name: Determine notification mode
+        id: mode
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+          INPUT_MODE: ${{ github.event.inputs.mode }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            MODE="$INPUT_MODE"
+          elif [ "$EVENT_SCHEDULE" = "0 9 * * 1" ]; then
+            MODE="weekly"
+          else
+            MODE="daily"
+          fi
+          echo "Selected mode: $MODE"
+          echo "value=$MODE" >> "$GITHUB_OUTPUT"
+
+      - name: Run contest notifier
+        env:
+          CONTEST_WEBHOOK_URL: ${{ secrets.CONTEST_WEBHOOK_URL }}
+          DSA_ROLE_ID: ${{ secrets.DSA_ROLE_ID }}
+        run: python scripts/contest_notifier.py --mode "${{ steps.mode.outputs.value }}"
