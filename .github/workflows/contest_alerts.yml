@@ -2,8 +2,8 @@ name: 🏆 Contest Alerts and Weekly Digest
 
 on:
   schedule:
-    - cron: '0 9 * * *'
-    - cron: '0 9 * * 1'
+    - cron: '30 0 * * *'
+    - cron: '30 0 * * 1'
   workflow_dispatch:
     inputs:
       mode:
@@ -51,7 +51,7 @@ jobs:
         run: |
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             MODE="$INPUT_MODE"
-          elif [ "$EVENT_SCHEDULE" = "0 9 * * 1" ]; then
+          elif [ "$EVENT_SCHEDULE" = "30 0 * * 1" ]; then
             MODE="weekly"
           else
             MODE="daily"
